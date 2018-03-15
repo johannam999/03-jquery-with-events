@@ -1,22 +1,28 @@
 # Project Name
 
-**Author**: Your Name Goes Here
-**Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
+**Author**: Joanna Coll and Matt Harding
+**Version**: 1.1.0 (increment the patch/fix version number up if you make more commits past your first submission)
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
+This is a blog with articles that can be seen as previews and then expended on to view the full articles. The user can also select articles by author or category. The goal is to make the functionality user-friendly and allow the user to find their desired article faster without needing to scroll through all the content.
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+1. Link the article view into html.
+2. Put the data attributes into article.js to link them with our article viewer.
+3. Refactored the option function concatenation using template literals.
+4. Create filter handler functions for both author and category.
+5. Create the nav handler function to show content for the tabs.
+6. Create the functionality to expend the articles beyond the preview.
+7. Call all the functions at document ready and hide the article template.
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+HTML, CSS, JS, jQuery
 
 ## Change Log
-<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
-
-01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
+03-15-2018 10:00am - Read through the specs
+03-15-2018 11:30am - Most features completed, switched drivers
+03-15-2018 12:00pm - Completing main nav and teaser functionality
+03-15-2018 1:00pm - Finishing writing and committing changes
 
 ## Credits and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
--->
+Shannon TA
